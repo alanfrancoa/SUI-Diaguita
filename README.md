@@ -38,13 +38,13 @@ Para ejecutar este proyecto, necesitarás:
 # Instalación
 
 1. **Clonar el Repositorio**:
-  git clone https://github.com/juanPabloCesarini/appweb_caba_2c_2024.git
+    En la ubicación donde tengas instalado XAMPP o Apache ir a /htdocs y clonar el repositorio. git clone https://github.com/alanfrancoa/SUI-Diaguita.git
   
 
 2. Configurar la Base de Datos:
 
 Crea una base de datos en MySQL llamada appweb_caba_universidad.
-Importa el archivo SQL ubicado en C:\xampp\htdocs\appweb_caba_2c_2024\A-Grupo1\Proyecto_Universidad\database.
+Importa el archivo SQL ubicado en C:\xampp\htdocs\SUI-Diaguita\Proyecto_Universidad\database.
 
 3.Configurar Variables de Entorno: Renombra el archivo config/config.example.php a config/config.php y edítalo:
 
@@ -59,7 +59,7 @@ Importa el archivo SQL ubicado en C:\xampp\htdocs\appweb_caba_2c_2024\A-Grupo1\P
    define('RUTA_APP', dirname(dirname(__FILE__)));
    // Ruta url
 
-   define('RUTA_URL','http://localhost/appweb_caba_2c_2024/A-Grupo1/Proyecto_Universidad');
+   define('RUTA_URL','http://localhost/Proyecto_Universidad');
 
    
    define('NOMBRESITIO','Administrador de tareas');
@@ -77,7 +77,7 @@ Para XAMPP, esto suele estar en C:\xampp\php\ (php.ini) y C:\xampp\sendmail\ (se
 6. Asegúrate de que el servidor web apunte al directorio public/ como raíz del proyecto.
 Iniciar el Proyecto: Abre tu navegador y navega a:
 
-http://localhost/appweb_caba_2c_2024/A-Grupo1/Proyecto_Universidad/landingController/index
+http://localhost/Proyecto_Universidad/landingController/index
 
 ---
 
